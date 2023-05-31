@@ -23,5 +23,15 @@
     "id": "6fb77de3-1d93-4175-b9b7-fa1fd7dbfe6e",
     "title": "New note title",
     "text": "New note text"
+  },
+  {
+    "id": "4917fca6-516e-450a-93ed-de95ecdfc41a",
+    "title": "New note 1",
+    "text": "New note content"
+  },
+  {
+    "id": "271f27ee-ce45-4664-b197-6bc95f8a5578",
+    "title": "Shopping",
+    "text": "Carrots"
   }
 ]
