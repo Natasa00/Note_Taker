@@ -4,13 +4,12 @@ const path = require("path");
 const { uuid } = require("uuidv4");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // middleware to parse json body
 app.use(express.json());
 
 app.get("/api/notes", function (req, res, next) {
-  console.log("getting notes api");
   try {
     // read the db
     const data = fs.readFileSync("./db/db.json", "utf8");
@@ -42,11 +41,10 @@ app.post("/api/notes", function (req, res, next) {
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname + "/public/index.html"))
-})
+  res.sendFile(path.join(__dirname + "/public/index.html"));
+});
 
 app.use("/notes", express.static(__dirname + "/public/notes.html"));
-
 
 app.listen(port, () => {
   console.log(`Notes API listening on port ${port}`);
