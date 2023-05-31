@@ -1,30 +1,5 @@
 [
   {
-    "id": "75442486-0878-440c-9db1-a7006c25a39f",
-    "title": "Test Title",
-    "text": "Test text"
-  },
-  {
-    "id": "11bf5b37-e0b8-42e0-8dcf-dc8c4aefc000",
-    "title": "New title",
-    "text": "New text"
-  },
-  {
-    "id": "30f76f27-ad6f-4d94-8a78-25e04774f307",
-    "title": "New note title",
-    "text": "New note text"
-  },
-  {
-    "id": "d606a660-b6b9-454f-a6d6-10fb07811e57",
-    "title": "New note title",
-    "text": "New note text"
-  },
-  {
-    "id": "6fb77de3-1d93-4175-b9b7-fa1fd7dbfe6e",
-    "title": "New note title",
-    "text": "New note text"
-  },
-  {
     "id": "4917fca6-516e-450a-93ed-de95ecdfc41a",
     "title": "New note 1",
     "text": "New note content"
@@ -32,6 +7,6 @@
   {
     "id": "271f27ee-ce45-4664-b197-6bc95f8a5578",
     "title": "Shopping",
-    "text": "Carrots"
+    "text": "Carrots, Eggs"
   }
 ]
